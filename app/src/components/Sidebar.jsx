@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="w-28 h-69.8125 flex-shrink-0 bg-gray-100 shadow-md">
+    <div className="w-28 h-69.8125 flex-shrink-0 bg-gray-100 shadow-md ">
       <div className="w-27.4375 h-3.6875 flex-shrink-0">
-        <Link to="/home">
+        <Link to="/">
           <h1 className="mb-4 hover:underline cursor-pointer">Home</h1>
         </Link>
         <Link to="/products">
